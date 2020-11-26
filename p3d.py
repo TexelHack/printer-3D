@@ -6,7 +6,7 @@ class Letras:
 	a5 = '██╔═══██║'
 	a6 = '╚═╝   ╚═╝'
 	b1 = '█████╗ '
-	b2= '██╔═██╗'
+	b2 = '██╔═██╗'
 	b3 = '█████╔╝'
 	b4 = '██╔═██╗'
 	b5 = '█████╔╝'
@@ -159,201 +159,41 @@ def p3d(text):
 	comp5 = ''
 	comp6 = ''
 	for i in text:
-		if i == 'a':
-			comp1 += Letras.a1 + ''
-			comp2 += Letras.a2 + ''
-			comp3 += Letras.a3 + ''
-			comp4 += Letras.a4 + ''
-			comp5 += Letras.a5 + ''
-			comp6 += Letras.a6 + ''
-		elif i == 'b':
-			comp1 += Letras.b1 + ''
-			comp2 += Letras.b2 + ''
-			comp3 += Letras.b3 + ''
-			comp4 += Letras.b4 + ''
-			comp5 += Letras.b5 + ''
-			comp6 += Letras.b6 + ''
-		elif i == 'c':
-			comp1 += Letras.c1 + ''
-			comp2 += Letras.c2 + ''
-			comp3 += Letras.c3 + ''
-			comp4 += Letras.c4 + ''
-			comp5 += Letras.c5 + ''
-			comp6 += Letras.c6 + ''
-		elif i == 'd':
-			comp1 += Letras.d1 + ''
-			comp2 += Letras.d2 + ''
-			comp3 += Letras.d3 + ''
-			comp4 += Letras.d4 + ''
-			comp5 += Letras.d5 + ''
-			comp6 += Letras.d6 + ''
-		elif i == 'e':
-			comp1 += Letras.e1 + ''
-			comp2 += Letras.e2 + ''
-			comp3 += Letras.e3 + ''
-			comp4 += Letras.e4 + ''
-			comp5 += Letras.e5 + ''
-			comp6 += Letras.e6 + ''
-		elif i == 'f':
-			comp1 += Letras.f1 + ''
-			comp2 += Letras.f2 + ''
-			comp3 += Letras.f3 + ''
-			comp4 += Letras.f4 + ''
-			comp5 += Letras.f5 + ''
-			comp6 += Letras.f6 + ''
-		elif i == 'g':
-			comp1 += Letras.g1 + ''
-			comp2 += Letras.g2 + ''
-			comp3 += Letras.g3 + ''
-			comp4 += Letras.g4 + ''
-			comp5 += Letras.g5 + ''
-			comp6 += Letras.g6 + ''
-		elif i == 'h':
-			comp1 += Letras.h1 + ''
-			comp2 += Letras.h2 + ''
-			comp3 += Letras.h3 + ''
-			comp4 += Letras.h4 + ''
-			comp5 += Letras.h5 + ''
-			comp6 += Letras.h6 + ''
-		elif i == 'i':
-			comp1 += Letras.i1 + ''
-			comp2 += Letras.i2 + ''
-			comp3 += Letras.i3 + ''
-			comp4 += Letras.i4 + ''
-			comp5 += Letras.i5 + ''
-			comp6 += Letras.i6 + ''
-		elif i == 'j':
-			comp1 += Letras.j1 + ''
-			comp2 += Letras.j2 + ''
-			comp3 += Letras.j3 + ''
-			comp4 += Letras.j4 + ''
-			comp5 += Letras.j5 + ''
-			comp6 += Letras.j6 + ''
-		elif i == 'k':
-			comp1 += Letras.k1 + ''
-			comp2 += Letras.k2 + ''
-			comp3 += Letras.k3 + ''
-			comp4 += Letras.k4 + ''
-			comp5 += Letras.k5 + ''
-			comp6 += Letras.k6 + ''
-		elif i == 'l':
-			comp1 += Letras.l1 + ''
-			comp2 += Letras.l2 + ''
-			comp3 += Letras.l3 + ''
-			comp4 += Letras.l4 + ''
-			comp5 += Letras.l5 + ''
-			comp6 += Letras.l6 + ''
-		elif i == 'm':
-			comp1 += Letras.m1 + ''
-			comp2 += Letras.m2 + ''
-			comp3 += Letras.m3 + ''
-			comp4 += Letras.m4 + ''
-			comp5 += Letras.m5 + ''
-			comp6 += Letras.m6 + ''
-		elif i == 'n':
-			comp1 += Letras.n1 + ''
-			comp2 += Letras.n2 + ''
-			comp3 += Letras.n3 + ''
-			comp4 += Letras.n4 + ''
-			comp5 += Letras.n5 + ''
-			comp6 += Letras.n6 + ''
-		elif i == 'o':
-			comp1 += Letras.o1 + ''
-			comp2 += Letras.o2 + ''
-			comp3 += Letras.o3 + ''
-			comp4 += Letras.o4 + ''
-			comp5 += Letras.o5 + ''
-			comp6 += Letras.o6 + ''
-		elif i == 'p':
-			comp1 += Letras.p1 + ''
-			comp2 += Letras.p2 + ''
-			comp3 += Letras.p3 + ''
-			comp4 += Letras.p4 + ''
-			comp5 += Letras.p5 + ''
-			comp6 += Letras.p6 + ''
-		elif i == 'r':
-			comp1 += Letras.r1 + ''
-			comp2 += Letras.r2 + ''
-			comp3 += Letras.r3 + ''
-			comp4 += Letras.r4 + ''
-			comp5 += Letras.r5 + ''
-			comp6 += Letras.r6 + ''
-		elif i == 's':
-			comp1 += Letras.s1 + ''
-			comp2 += Letras.s2 + ''
-			comp3 += Letras.s3 + ''
-			comp4 += Letras.s4 + ''
-			comp5 += Letras.s5 + ''
-			comp6 += Letras.s6 + ''
-		elif i == 't':
-			comp1 += Letras.t1 + ''
-			comp2 += Letras.t2 + ''
-			comp3 += Letras.t3 + ''
-			comp4 += Letras.t4 + ''
-			comp5 += Letras.t5 + ''
-			comp6 += Letras.t6 + ''
-		elif i == 'u':
-			comp1 += Letras.u1 + ''
-			comp2 += Letras.u2 + ''
-			comp3 += Letras.u3 + ''
-			comp4 += Letras.u4 + ''
-			comp5 += Letras.u5 + ''
-			comp6 += Letras.u6 + ''
-		elif i == 'v':
-			comp1 += Letras.v1 + ''
-			comp2 += Letras.v2 + ''
-			comp3 += Letras.v3 + ''
-			comp4 += Letras.v4 + ''
-			comp5 += Letras.v5 + ''
-			comp6 += Letras.v6 + ''
-		elif i == 'w':
-			comp1 += Letras.w1 + ''
-			comp2 += Letras.w2 + ''
-			comp3 += Letras.w3 + ''
-			comp4 += Letras.w4 + ''
-			comp5 += Letras.w5 + ''
-			comp6 += Letras.w6 + ''
-		elif i == 'x':
-			comp1 += Letras.x1 + ''
-			comp2 += Letras.x2 + ''
-			comp3 += Letras.x3 + ''
-			comp4 += Letras.x4 + ''
-			comp5 += Letras.x5 + ''
-			comp6 += Letras.x6 + ''
-		elif i == 'y':
-			comp1 += Letras.y1 + ''
-			comp2 += Letras.y2 + ''
-			comp3 += Letras.y3 + ''
-			comp4 += Letras.y4 + ''
-			comp5 += Letras.y5 + ''
-			comp6 += Letras.y6 + ''
-		elif i == 'z':
-			comp1 += Letras.z1 + ''
-			comp2 += Letras.z2 + ''
-			comp3 += Letras.z3 + ''
-			comp4 += Letras.z4 + ''
-			comp5 += Letras.z5 + ''
-			comp6 += Letras.z6 + ''
-		elif i == ' ':
-			comp1 += ' '
-			comp2 += ' '
-			comp3 += ' '
-			comp4 += ' '
-			comp5 += ' '
-			comp6 += ' '
+		if i == ' ':
+			comp1 += '  ' 
+			comp2 += '  ' 
+			comp3 += '  ' 
+			comp4 += '  ' 
+			comp5 += '  ' 
+			comp6 += '  ' 
 		else:
-			comp1 += '  '
-			comp2 += '  '
-			comp3 += '  '
-			comp4 += '  '
-			comp5 += '  '
-			comp6 += '  '			
+			comp1 = eval("comp1 + Letras." + i + "1")
+			comp2 = eval("comp2 + Letras." + i + "2")
+			comp3 = eval("comp3 + Letras." + i + "3")
+			comp4 = eval("comp4 + Letras." + i + "4")
+			comp5 = eval("comp5 + Letras." + i + "5")
+			comp6 = eval("comp6 + Letras." + i + "6")
 
 	print('\n' + comp1 + '\n' + comp2 + '\n' + comp3 + '\n' + comp4 + '\n' + comp5 + '\n' + comp6 + '\n')
 
 if __name__ == '__main__':
 	import sys
 	if sys.argv[1:]:
-		p3d(sys.argv[1:])
+		p3d(sys.argv[1])
+		try:
+			p3d(sys.argv[2])
+			p3d(sys.argv[3])
+			p3d(sys.argv[4])
+			p3d(sys.argv[5])
+			p3d(sys.argv[6])
+			p3d(sys.argv[7])
+			p3d(sys.argv[8])
+			p3d(sys.argv[9])
+		except IndexError:
+			pass
+		if sys.argv[10:]:
+			print('Se ha exedido del numero de palabras | max = 9')
+		else:
+			pass
 	else:
 		p3d(input('[ Escriba algo})]>'))
