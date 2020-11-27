@@ -149,6 +149,7 @@ class Letras:
 	z4 = '██╔═══╝ '
 	z5 = '███████╗'
 	z6 = '╚══════╝'
+	
 
 def p3d(text):
 	text = str(text).lower()
@@ -176,8 +177,31 @@ def p3d(text):
 
 	print('\n' + comp1 + '\n' + comp2 + '\n' + comp3 + '\n' + comp4 + '\n' + comp5 + '\n' + comp6 + '\n')
 
+def main():
+	from subprocess import Popen
+	from platform import system
+	Popen('cls' if system() == 'Windows' else 'clean', shell=True)
+	sleep(0.1)
+	print('\n')
+	print('█████╗ █████╗ ██╗████╗ ██╗████████╗██████╗█████╗       ██████╗ ████╗  ')
+	sleep(0.1)
+	print('██╔═██╗██╔═██╗██║██╔██╗██║╚══██╔══╝██╔═══╝██╔═██╗      ╚═══███╗██╔═██╗')
+	sleep(0.1)
+	print('█████╔╝█████╔╝██║██║██║██║   ██║   ████╗  █████╔╝       █████╔╝██║ ██║')
+	sleep(0.1)
+	print('██╔══╝ ██╔═██╗██║██║██║██║   ██║   ██╔═╝  ██╔═██╗       ╚══███╗██║ ██║')
+	sleep(0.1)
+	print('██║    ██║ ██║██║██║╚████║   ██║   ██████╗██║ ██║      ██████╔╝████╔═╝')
+	sleep(0.1)
+	print('╚═╝    ╚═╝ ╚═╝╚═╝╚═╝ ╚═══╝   ╚═╝   ╚═════╝╚═╝ ╚═╝      ╚═════╝ ╚═══╝  ')
+	sleep(0.1)
+	print('======================================================================')
+	sleep(0.1)
+	p3d(input(')○> '))
+
 if __name__ == '__main__':
 	import sys
+	from time import sleep
 	if sys.argv[1:]:
 		p3d(sys.argv[1])
 		try:
@@ -196,4 +220,10 @@ if __name__ == '__main__':
 		else:
 			pass
 	else:
-		p3d(input('[ Escriba algo})]>'))
+		from platform import python_version
+		if python_version()[0] == '3':
+			main()
+		else:
+			print('Actualise el python ha la version 3')
+			sleep(3)
+			main()
