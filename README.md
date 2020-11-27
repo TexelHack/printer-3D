@@ -17,11 +17,12 @@ aunque aún no se inclullen números o simbolos,
 Esto imprime el texto escrito de manera directa
 
 *Indirecto*
-> C:\User\Admin\\>p3d     
-[ Escriba algo})]> [Texto]
+> C:\User\Admin\\>p3d 
+
+![alt](screnshoot-02.png)
 
 Es mas sensillo si no estas muy acostumbrado al uso
-de la consola 
+de la consola y se puede optener mejor resultado
 
 **Desde Python**
 --------
