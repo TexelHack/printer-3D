@@ -2,7 +2,7 @@
 Imprime texto tipo 3D usando arte ASCII
 
 Es util para ahorrarnos tiempo debujando letras clasicas,
-aunque aún no se inclullen números o simbolos.Puedes mantenerlo
+aunque aún no se inclullen  simbolos.Puedes mantenerlo
 actualizado desde [GitHub](http:\\github.com\TexelHack\printer-3D)
 
 ## <center>Ejemplo&colon;</center>
@@ -37,7 +37,6 @@ Desde python lo puedes usar importando la función
 
 # <center>Defectos</center>
 - La letra **Q** aún no existe (En solución)
-- No se han hecho aún los números (En solución)
 # <center>***Licencia***</center>
 The MIT License (MIT)
 

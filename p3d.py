@@ -149,31 +149,98 @@ class Letras:
 	z4 = '██╔═══╝ '
 	z5 = '███████╗'
 	z6 = '╚══════╝'
-	
+	n11 = ' ███╗  '
+	n12 = ' ╚██║  '
+	n13 = '  ██║  '
+	n14 = '  ██║  '
+	n15 = '██████╗'
+	n16 = '╚═════╝'
+	n21 = '██████╗'
+	n22 = '╚═══██║'
+	n23 = '██████║'
+	n24 = '██╔═══╝'
+	n25 = '██████╗'
+	n26 = '╚═════╝'
+	n31 = '██████╗'
+	n32 = '╚═══██║'
+	n33 = '██████║'
+	n34 = '╚═══██║'
+	n35 = '██████║'
+	n36 = '╚═════╝'
+	n41 = '██╗ ██╗'
+	n42 = '██║ ██║'
+	n43 = '██████║'
+	n44 = '╚═══██║'
+	n45 = '    ██║'
+	n46 = '    ╚═╝'
+	n51 = '██████╗'
+	n52 = '██╔═══╝'
+	n53 = '██████╗'
+	n54 = '╚═══██║'
+	n55 = '██████║'
+	n56 = '╚═════╝'
+	n61 = '██████╗'
+	n62 = '██╔═══╝'
+	n63 = '██████╗'
+	n64 = '██══██║'
+	n65 = '██████║'
+	n66 = '╚═════╝'
+	n71 = '██████╗'
+	n72 = '╚═══██║'
+	n73 = '    ██║'
+	n74 = '    ██║'
+	n75 = '    ██║'
+	n76 = '    ╚═╝'
+	n81 = '██████╗'
+	n82 = '██╔═██║'
+	n83 = '██████║'
+	n84 = '██╔═██║'
+	n85 = '██████║'
+	n86 = '╚═════╝'
+	n91 = '██████╗'
+	n92 = '██╔═██║'
+	n93 = '██████║'
+	n94 = '╚═══██║'
+	n95 = '██████║'
+	n96 = '╚═════╝'
+	n01 = '██████╗'
+	n02 = '██╔═██║'
+	n03 = '██║ ██║'
+	n04 = '██║ ██║'
+	n05 = '██████║'
+	n06 = '╚═════╝'
 
 def p3d(text):
-	text = str(text).lower()
 	comp1 = ''
 	comp2 = ''
 	comp3 = ''
 	comp4 = ''
 	comp5 = ''
 	comp6 = ''
-	for i in text:
-		if i == ' ':
-			comp1 += '  ' 
-			comp2 += '  ' 
-			comp3 += '  ' 
-			comp4 += '  ' 
-			comp5 += '  ' 
-			comp6 += '  ' 
-		else:
-			comp1 = eval("comp1 + Letras." + i + "1")
-			comp2 = eval("comp2 + Letras." + i + "2")
-			comp3 = eval("comp3 + Letras." + i + "3")
-			comp4 = eval("comp4 + Letras." + i + "4")
-			comp5 = eval("comp5 + Letras." + i + "5")
-			comp6 = eval("comp6 + Letras." + i + "6")
+	for i in text.lower():
+		try:
+			int(i)
+			comp1 = eval("comp1 + Letras.n" + i + "1")
+			comp2 = eval("comp2 + Letras.n" + i + "2")
+			comp3 = eval("comp3 + Letras.n" + i + "3")
+			comp4 = eval("comp4 + Letras.n" + i + "4")
+			comp5 = eval("comp5 + Letras.n" + i + "5")
+			comp6 = eval("comp6 + Letras.n" + i + "6")
+		except ValueError:
+			if i == ' ':
+				comp1 += '  ' 
+				comp2 += '  ' 
+				comp3 += '  ' 
+				comp4 += '  ' 
+				comp5 += '  ' 
+				comp6 += '  ' 
+			else:
+				comp1 = eval("comp1 + Letras." + i + "1")
+				comp2 = eval("comp2 + Letras." + i + "2")
+				comp3 = eval("comp3 + Letras." + i + "3")
+				comp4 = eval("comp4 + Letras." + i + "4")
+				comp5 = eval("comp5 + Letras." + i + "5")
+				comp6 = eval("comp6 + Letras." + i + "6")
 
 	print('\n' + comp1 + '\n' + comp2 + '\n' + comp3 + '\n' + comp4 + '\n' + comp5 + '\n' + comp6 + '\n')
 
